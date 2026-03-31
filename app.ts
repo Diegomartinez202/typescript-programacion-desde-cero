@@ -24,4 +24,5 @@ function getUser(id: number): User | undefined {
     }
    return undefined;
     }
-
+console.log(getUser(1));
+console.log(getUser(2));
